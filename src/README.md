@@ -25,6 +25,11 @@ A super simple FastAPI application that allows students to view and sign up for 
    - API documentation: http://localhost:8000/docs
    - Alternative documentation: http://localhost:8000/redoc
 
+## Persistence
+
+All activity, student, and membership data is stored in a local SQLite file at `src/database.sqlite`.
+Data now persists across server restarts instead of being reset on each launch.
+
 ## API Endpoints
 
 | Method | Endpoint                                                          | Description                                                         |
